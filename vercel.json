@@ -1,16 +1,17 @@
 {
-  "rewrites": [
-    { "source": "/hero", "destination": "/hero" },
-    { "source": "/diagnosa", "destination": "/diagnosa" },
-    { "source": "/scan", "destination": "/scan" },
-    { "source": "/edukasi", "destination": "/edukasi" },
-    { "source": "/informasi", "destination": "/informasi" },
-    { "source": "/pengingat", "destination": "/pengingat" },
-    { "source": "/testimoni", "destination": "/testimoni" },
-    { "source": "/blog", "destination": "/blog" },
-    { "source": "/detail", "destination": "/detail" },
-    { "source": "/upload", "destination": "/upload" },
-    { "source": "/loading", "destination": "/loading" },
-    { "source": "/result", "destination": "/result" }
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/hero", "dest": "/hero" },
+    { "src": "/diagnosa", "dest": "/diagnosa" },
+    { "src": "/scan", "dest": "/scan" },
+    { "src": "/edukasi", "dest": "/edukasi" },
+    { "src": "/informasi", "dest": "/informasi" },
+    { "src": "/pengingat", "dest": "/pengingat" },
+    { "src": "/testimoni", "dest": "/testimoni" },
+    { "src": "/blog", "dest": "/blog" },
+    { "src": "/detail", "dest": "/detail" },
+    { "src": "/upload", "dest": "/upload" },
+    { "src": "/loading", "dest": "/loading" },
+    { "src": "/result", "dest": "/result" }
   ]
 }
