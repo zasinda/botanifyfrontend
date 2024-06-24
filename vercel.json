@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    { "source": "/hero", "destination": "/hero" },
+    { "source": "/diagnosa", "destination": "/diagnosa" },
+    { "source": "/scan", "destination": "/scan" },
+    { "source": "/edukasi", "destination": "/edukasi" },
+    { "source": "/informasi", "destination": "/informasi" },
+    { "source": "/pengingat", "destination": "/pengingat" },
+    { "source": "/testimoni", "destination": "/testimoni" },
+    { "source": "/blog", "destination": "/blog" },
+    { "source": "/detail", "destination": "/detail" },
+    { "source": "/upload", "destination": "/upload" },
+    { "source": "/loading", "destination": "/loading" },
+    { "source": "/result", "destination": "/result" }
+  ]
+}
